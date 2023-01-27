@@ -18,30 +18,32 @@
 </head>
 
 <body>
-  <main class="container my-4 d-flex flex-column align-items-center">
+  <main class="container my-4 pt-4 pt-md-5 pb-2 px-4 d-flex flex-column align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
-      <p class="notif">Notifications&ensp;<span class="notif-count py-0 btn btn-primary ">3</span></p>
-      <p class="pb-2 mb-1">Mark all as read </p>
+      <p class="notif">Notifications&ensp;<span class="notif-count py-1 px-3 m-0 rounded">3</span></p>
+      <p class="pb-2 mb-1 read-toggle btn px-0">Mark all as read </p>
     </div>
     <div class="container unread notif-card my-2 pt-3 rounded d-flex align-items-start">
       <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Mark Webber</span> reacted to your recent post <span class="post">My first
-            tournament today!</span></p>
+        <p class="my-0"><span class="user"><a href="#profile">Mark Webber</a></span> reacted to your recent post <span
+            class="post"><a href="postlink">My first
+              tournament today!</a></span></p>
         <p class="time">1m ago</p>
       </div>
     </div>
     <div class="container unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Angela Gray</span> followed you</p>
+        <p class="my-0"><span class="user"><a href="#profile">Angela Gray</a></span> followed you</p>
         <p class="time">5m ago</p>
       </div>
     </div>
     <div class="container unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Jacob Thompson</span> has joined your group <span class="grp">Chess Club</p>
+        <p class="my-0"><span class="user"><a href="#profile">Jacob Thompson</a></span> has joined your group <span
+            class="grp"><a href="#chessclub">Chess Club</a></p>
         </span>
         <p class="time">1 day ago</p>
       </div>
@@ -49,38 +51,41 @@
     <div class="container read notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Rizky Hasanuddin</span> sent you a private message</p>
+        <p class="my-0"><span class="user"><a href="#profile">Rizky Hasanuddin</a></span> sent you a private message</p>
         <p class="time">5 days ago</p>
-        <p class="message border rounded p-3">Hello, thanks for setting up the Chess Club. I've been a member for a few
-          weeks now and
-          I'm already having lots of fun and improving my game.</p>
+        <p class="message border rounded p-3"><a href="#messagebox">Hello, thanks for setting up the Chess Club. I've
+            been a member for a few
+            weeks now and
+            I'm already having lots of fun and improving my game.</a></p>
       </div>
     </div>
     <div class="container read notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Kimberly Smith</span> commented on your picture</p>
+        <p class="my-0"><span class="user"><a href="#profile">Kimberly Smith</a></span> commented on your picture</p>
         <p class="time">1 week ago</p>
       </div>
-      <img src="assets/images/image-chess.webp" alt="Post Image">
+      <a href="#postlink"><img src="assets/images/image-chess.webp" alt="Post Image"></a>
     </div>
     <div class="container read notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Nathan Peterson</span> reacted to your recent post <span class="post">5
-            end-game strategies to increase your win rate</p></span>
+        <p class="my-0"><span class="user"><a href="#profile">Nathan Peterson</a></span> reacted to your recent post
+          <span class="post"><a href="#postlink">5
+              end-game strategies to increase your win rate</a></p></span>
         <p class="time">2 weeks ago</p>
       </div>
     </div>
     <div class="container read notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim avatar">
       <div class="container d-flex flex-column  align-items-start">
-        <p class="my-0"><span class="user">Anna Kim</span> left the group <span class="grp">Chess Club</span></p>
+        <p class="my-0"><span class="user"><a href="#profile">Anna Kim</a></span> left the group <span class="grp"><a
+              href="#chessclub">Chess Club</a></span></p>
         <p class="time">2 weeks ago</p>
       </div>
     </div>
   </main>
-  <footer>
+  <footer class="text-center">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">EmberTSeal</a>.

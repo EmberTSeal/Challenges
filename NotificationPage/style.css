@@ -13,10 +13,6 @@ body{
     background-color:  hsl(210, 60%, 98%);
 }
 
-.message{
-    border-color: hsl(219, 14%, 63%);
-}
-
 .user, .notif, .post, .grp, .notif-count{
     font-weight: 800;
 }
@@ -26,6 +22,7 @@ body{
 }
 
 .notif-count{
+    background-color: hsl(219, 85%, 26%);
     color: white;
 }
 
@@ -33,11 +30,41 @@ body{
     vertical-align: text-bottom;
 }
 
-.notif, .user{
+
+.user a, .message a, .grp a, .post a{
+    text-decoration: none;
+}
+
+.post a, .read-toggle{
+    color: hsl(219, 12%, 42%);
+}
+
+.read-toggle:hover, .read-toggl:focus, .read-toggle:active{
+    color:hsl(219, 85%, 26%);
+}
+
+.post a:hover, .post a:focus, .post a:active{
+    color: hsl(219, 85%, 26%);
+}
+
+.notif, .user a{
     color: hsl(224, 21%, 14%);
 }
 
-.grp{
+.user a:hover, .user a:focus, .user a:active{
+    color: hsl(219, 85%, 26%);
+}
+
+.message a{ 
+    color: hsl(219, 12%, 42%);
+    border-color: hsl(219, 14%, 63%);
+}
+
+.message:hover, .message:focus, .message:active{
+    background-color: hsl(205, 33%, 90%);
+}
+
+.grp a, .grp a:hover, .grp a:focus{
     color: hsl(219, 85%, 26%);
 }
 
@@ -50,9 +77,11 @@ img{
     max-width: 50px;
     max-height: 50px;
 }
- 
+
 @media (min-width: 769px) {
     main.container{
         max-width: 60vw;
+        border-radius: 1rem;
+        box-shadow: 0rem 1rem 3rem 0.1rem rgb(212, 212, 212);
     }    
 }
