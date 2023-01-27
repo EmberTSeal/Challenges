@@ -61,7 +61,7 @@ body{
 }
 
 .message:hover, .message:focus, .message:active{
-    background-color: hsl(205, 33%, 90%);
+    background-color: hsl(211, 68%, 94%);
 }
 
 .grp a, .grp a:hover, .grp a:focus{
@@ -72,6 +72,15 @@ body{
     color:hsl(219, 14%, 63%);
 }
 
+.indicator{
+    display: inline;
+    position: absolute;
+    margin: 9px 10px;  
+    border-radius: 50%;
+    width:8px;
+    height:8px;
+    background-color: hsl(1, 90%, 64%);
+}
 
 img{
     max-width: 50px;
