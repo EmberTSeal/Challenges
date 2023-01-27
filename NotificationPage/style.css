@@ -39,7 +39,7 @@ body{
     color: hsl(219, 12%, 42%);
 }
 
-#read-toggle:hover, #read-toggl:focus, #read-toggle:active{
+#read-toggle:hover, #read-toggle:focus, #read-toggle:active{
     color:hsl(219, 85%, 26%);
 }
 
