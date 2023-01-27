@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EmberTSeal/Challenges/tree/main/NotificationPage)
-- Live Site URL: [Add live site URL here](https://embertseal.github.io/Challenges/NotificationPage)
+- Solution URL: https://github.com/EmberTSeal/Challenges/tree/main/NotificationPage
+- Live Site URL: https://embertseal.github.io/Challenges/NotificationPage
 
 ## My process
 
