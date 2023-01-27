@@ -20,10 +20,10 @@
 <body>
   <main class="container my-4 pt-4 pt-md-5 pb-2 px-4 d-flex flex-column align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
-      <p class="notif">Notifications&ensp;<span class="notif-count py-1 px-3 m-0 rounded">3</span></p>
-      <p class="pb-2 mb-1 read-toggle btn px-0">Mark all as read </p>
+      <p class="notif">Notifications&ensp;<span id="notif-count" class="py-1 px-3 m-0 rounded">3</span></p>
+      <p class="pb-2 mb-1 btn px-0" id="read-toggle">Mark all as read </p>
     </div>
-    <div class="container unread notif-card my-2 pt-3 rounded d-flex align-items-start">
+    <div class="container new unread notif-card my-2 pt-3 rounded d-flex align-items-start">
       <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber avatar">
       <div class="container d-flex flex-column  align-items-start">
         <p class="my-0"><span class="user"><a href="#profile">Mark Webber</a></span> reacted to your recent post <span
@@ -34,7 +34,7 @@
         <p class="time">1m ago</p>
       </div>
     </div>
-    <div class="container unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
+    <div class="container new unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray avatar">
       <div class="container d-flex flex-column  align-items-start">
         <p class="my-0"><span class="user"><a href="#profile">Angela Gray</a></span> followed you
@@ -43,7 +43,7 @@
         <p class="time">5m ago</p>
       </div>
     </div>
-    <div class="container unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
+    <div class="container new unread notif-card my-2 pt-3 rounded d-flex justify-content-between">
       <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson avatar">
       <div class="container d-flex flex-column  align-items-start">
         <p class="my-0"><span class="user"><a href="#profile">Jacob Thompson</a></span> has joined your group <span
@@ -102,7 +102,13 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  
+  <script>
+      $("#read-toggle").click(function () {
+        $(".indicator").hide();
+        $(".new").css("background-color", "white");
+        $("#notif-count").text("0");
+      });
+  </script>
 </body>
 
 </html>

@@ -13,7 +13,7 @@ body{
     background-color:  hsl(210, 60%, 98%);
 }
 
-.user, .notif, .post, .grp, .notif-count{
+.user, .notif, .post, .grp, #notif-count{
     font-weight: 800;
 }
 
@@ -21,12 +21,12 @@ body{
     font-size: 1.2rem;
 }
 
-.notif-count{
+#notif-count{
     background-color: hsl(219, 85%, 26%);
     color: white;
 }
 
-.notif, .notif-count{
+.notif, #notif-count{
     vertical-align: text-bottom;
 }
 
@@ -35,11 +35,11 @@ body{
     text-decoration: none;
 }
 
-.post a, .read-toggle{
+.post a, #read-toggle{
     color: hsl(219, 12%, 42%);
 }
 
-.read-toggle:hover, .read-toggl:focus, .read-toggle:active{
+#read-toggle:hover, #read-toggl:focus, #read-toggle:active{
     color:hsl(219, 85%, 26%);
 }
 
