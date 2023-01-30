@@ -29,8 +29,30 @@ main .lead{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color:white;
+    color:hsl(36, 100%, 99%);
     text-indent: auto;
     margin-left: 10px;
     letter-spacing: 10px;
+}
+
+.new{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new h2{
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+}
+
+.new h3{
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+}
+
+.new p{
+    color: hsl(233, 8%, 79%);
+}
+
+.article{
+    border-color: hsl(233, 8%, 79%);
 }
