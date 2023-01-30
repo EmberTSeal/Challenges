@@ -1,10 +1,3 @@
-$(document).ready(function () {
-    $('.navbar-toggler-icon').click(function () {
-        $('.navbar-toggler-icon').toggleClass('navbar-toggled-on');
-    })    
-});
-
-
 $(window).resize(function(e){
     if($(window).width() < 768) {
     console.log($(window).width());
@@ -17,3 +10,9 @@ $(window).resize(function(e){
                  });                        
      }         
  });
+
+$(document).ready(function () {
+    $('.navbar-toggler-icon').click(function () {
+        $('.navbar-toggler-icon').toggleClass('navbar-toggled-on');
+    })    
+});
