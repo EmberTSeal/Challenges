@@ -1,6 +1,7 @@
 body{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .navbar-toggler-icon{
@@ -15,7 +16,7 @@ main .display-1{
     font-weight: 800;
 }
 
-main .lead{
+main .lead, .trending p{
     color: hsl(236, 13%, 42%);
 }
 
@@ -55,4 +56,19 @@ main .lead{
 
 .article{
     border-color: hsl(233, 8%, 79%);
+}
+
+.trending>img{
+    max-width: 150px;
+    max-height: 200px;
+}
+
+.trending h2{
+    color:hsl(233, 8%, 79%);
+    font-weight: 800;
+}
+
+.trending h3{
+    color: black;
+    font-weight: 700;
 }
