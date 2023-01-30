@@ -35,29 +35,39 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg container mb-3">
+  <nav class="navbar bg-body-tertiary fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="assets/images/logo.svg" alt="Site Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
-        aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/images/logo.svg" alt="Site Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-content">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">New</a>
-          </li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Popular</a>
-          </li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Trending</a>
-          </li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Categories</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-size-sm offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header p-4 d-flex justify-content-end">
+          <button type="button" class = "btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Categories</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </div>
   </nav>
   <main class="container">
     <img src="assets/images/image-web-3-mobile.jpg" alt="Web 3.0 article image" class="mobile img-fluid mb-4">
@@ -72,15 +82,15 @@
     <div class="new p-4">
       <h2 class="display-3">New</h2>
       <div class="article border-bottom my-4">
-        <h3 class="display-6">Hydrogen VS Electric Cars</h3>
+        <h3 class="display-6"> <a href="#Cars">Hydrogen VS Electric Cars</a></h3>
         <p class="mb-4">Will hydrogen-fueled cars ever catch up to EVs?</p>
       </div>
       <div class="article border-bottom my-4">
-        <h3 class="display-6">The Downsides of AI Artistry</h3>
+        <h3 class="display-6"> <a href="#AI">The Downsides of AI Artistry</a></h3>
         <p class="mb-4">What are the possible adverse effects of on-demand AI image generation?</p>
       </div>
       <div class="article">
-        <h3 class="display-6 ">Is VC Funding Drying Up?</h3>
+        <h3 class="display-6 "> <a href="#VCfund">Is VC Funding Drying Up?</a></h3>
         <p class="">Private funding by VC firms is down 50% YOY. We take a look at what that means. </p>
       </div>
     </div>
@@ -88,30 +98,30 @@
 
   <section class="container py-2">
     <div class="trending d-flex flex-row align-items-center my-5">
-      <img class = "img-fluid" src="assets/images/image-retro-pcs.jpg" alt="Retro PC">
+      <img class="img-fluid" src="assets/images/image-retro-pcs.jpg" alt="Retro PC">
       <div class="ps-4 d-flex flex-column justify-content-around">
         <h2 class="display-3">01</h2>
-        <h3 class="display-6">Reviving Retro PCs</h3>
+        <h3 class="display-6"> <a href="#retropc">Reviving Retro PCs</a></h3>
         <p>What happens when old PCs are given modern upgrades?</p>
       </div>
     </div>
     <div class="trending d-flex flex-row align-items-center my-5">
-      <img class = "img-fluid" src="assets/images/image-top-laptops.jpg" alt="Top Laptops">
+      <img class="img-fluid" src="assets/images/image-top-laptops.jpg" alt="Top Laptops">
       <div class="ps-4 d-flex flex-column justify-content-around">
         <h2 class="display-3">02</h2>
-        <h3 class="display-6">Top 10 Laptops of 2022</h3>
+        <h3 class="display-6"> <a href="#toplaptop">Top 10 Laptops of 2022</a></h3>
         <p>Our best picks for various needs and budgets.</p>
       </div>
     </div>
     <div class="trending d-flex flex-row align-items-center my-5">
-      <img class = "img-fluid" src="assets/images/image-gaming-growth.jpg" alt="Gaming Growth">
+      <img class="img-fluid" src="assets/images/image-gaming-growth.jpg" alt="Gaming Growth">
       <div class="ps-4 d-flex flex-column justify-content-around">
         <h2 class="display-3">03</h2>
-        <h3 class="display-6">The Growth of Gaming</h3>
+        <h3 class="display-6"> <a href="#gaming">The Growth of Gaming</a></h3>
         <p>How the pandemic has sparked fresh opportunities.</p>
       </div>
     </div>
-    
+
   </section>
 
   <div class="attribution">

@@ -4,12 +4,26 @@ body{
     font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
 .navbar-toggler-icon{
     background-image: url("assets/images/icon-menu.svg");
 }
 
-.navbar-toggled-on{
-    background-image: url("assets/images/icon-menu-close.svg");
+.btn-close{
+    background: url("assets/images/icon-menu-close.svg");
+}
+
+.offcanvas-body .nav-link:hover, 
+.offcanvas-body .nav-link:focus{
+    color:hsl(5, 85%, 63%);
+}
+
+.offcanvas{
+    max-width: 70%;
 }
 
 main .display-1{
@@ -36,6 +50,10 @@ main .lead, .trending p{
     letter-spacing: 10px;
 }
 
+.read-more:hover, .read-more:focus{
+    background-color: hsl(240, 100%, 5%);
+}
+
 .new{
     background-color: hsl(240, 100%, 5%);
 }
@@ -58,6 +76,10 @@ main .lead, .trending p{
     border-color: hsl(233, 8%, 79%);
 }
 
+.article h3:hover, .article h3:focus{
+    color: hsl(35, 77%, 62%);
+}
+
 .trending>img{
     max-width: 150px;
     max-height: 200px;
@@ -71,4 +93,8 @@ main .lead, .trending p{
 .trending h3{
     color: black;
     font-weight: 700;
+}
+
+.trending h3:hover, .trending h3:focus{
+    color: hsl(5, 85%, 63%);
 }
