@@ -10,7 +10,7 @@ Solution to mini-project challenges from FrontEndMentor, CodeWell, Frontend Prac
 ## Frontend Mentor
 - [QRCode Component](https://embertseal.github.io/Challenges/QRCode) [HTML5, CSS]
 - [Notification Page](https://embertseal.github.io/Challenges/NotificationPage) [Bootstrap, JS]
-- [News Homepage]((https://embertseal.github.io/Challenges/News-Homepage) [HTML, CSS, JS]
+- [News Homepage](https://embertseal.github.io/Challenges/News-Homepage) [HTML, CSS, JS]
 
 ## Colt Steele: Web Development Bootcamp
 - [Pricing Panel](https://embertseal.github.io/Challenges/Museum-of-Candy) [HTML5, CSS]
