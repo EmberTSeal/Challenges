@@ -4,13 +4,14 @@ Solution to mini-project challenges from FrontEndMentor, CodeWell, Frontend Prac
 ## Contents
 
 ### The Odin Project
-- Recipes [HTML5]
-- Landing Page [HTML5, Flexbox]
+- [Recipes](https://embertseal.github.io/Challenges/Recipes_TOP) [HTML5]
+- [Landing Page](https://embertseal.github.io/Challenges/Landing-Page_TOP) [HTML5, Flexbox]
 
 ## Frontend Mentor
-- QRCode Component [HTML5, CSS]
-- Notification Page [Bootstrap, JS]
+- [QRCode Component](https://embertseal.github.io/Challenges/QRCode) [HTML5, CSS]
+- [Notification Page](https://embertseal.github.io/Challenges/NotificationPage) [Bootstrap, JS]
+- [News Homepage]((https://embertseal.github.io/Challenges/News-Homepage) [HTML, CSS, JS]
 
 ## Colt Steele: Web Development Bootcamp
-- Pricing Panel [HTML5, CSS]
-- Museum of Candy [Boostrap]
+- [Pricing Panel](https://embertseal.github.io/Challenges/Museum-of-Candy) [HTML5, CSS]
+- [Museum of Candy](https://embertseal.github.io/Challenges/Museum-of-Candy) [Boostrap]
